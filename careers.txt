@@ -1,7 +1,4 @@
-quality-assessment
-
-
-ethical-hacking "Are you interested in hacking? (yes/no?) " 0.4
-securing "Do you know what data encryption is? (yes/no?) " 0.5
-security-certification "Have you done any IBM security certification? (yes/no?) " 0.3
-ENDGROUP
+ethical-hacking penetration-testor 0.8 security-auditor 0.6 "Are you interested in hacking? (yes/no?) " 0.4
+securing security-auditor 0.9 penetration-testor 0.4 "Do you like solving puzzles (eg SUDOKU)? (yes/no?) "
+security-certified security-auditor 0.7 "Have you done any IBM security certification? (yes/no?) "
+NODE
