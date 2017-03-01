@@ -1,4 +1,3 @@
-ethical-hacking penetration-testor 0.8 security-auditor 0.6 "Are you interested in hacking? (yes/no?) " 0.4
-securing security-auditor 0.9 penetration-testor 0.4 "Do you like solving puzzles (eg SUDOKU)? (yes/no?) "
-security-certified security-auditor 0.7 "Have you done any IBM security certification? (yes/no?) "
-NODE
+ethical-hacking "Are you interested in hacking? (yes/no?) " penetration-testor 0.8 security-auditor 0.6  
+securing "Do you like solving puzzles (eg SUDOKU)? (yes/no?) " security-auditor 0.9 penetration-testor 0.4 
+security-certified "Have you done any IBM security certification? (yes/no?) " security-auditor 0.7 

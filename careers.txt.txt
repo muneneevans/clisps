@@ -1,0 +1,7 @@
+quality-assessment
+
+
+ethical-hacking "Are you interested in hacking? (yes/no?) " 0.4
+securing "Do you know what data encryption is? (yes/no?) " 0.5
+security-certification "Have you done any IBM security certification? (yes/no?) " 0.3
+ENDGROUP
