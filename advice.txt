@@ -11,3 +11,39 @@ penetration-testor
 ^^^ Forensics tools ^^^
 ^^^ Cryptography principles ^^^
 NODE
+java-web-developer
+^^^ Bachelors degree ^^^
+^^^ Web servers ^^^
+^^^ MVC ^^^
+^^^ REST ^^^
+^^^ Git ^^^
+^^^ SQL ^^^
+^^^ Java ^^^
+^^^ Python ^^^
+NODE
+network-system-administrator
+^^^ Bachelors degree ^^^
+^^^ Networking certifications ^^^
+^^^ Database Management Systems ^^^
+^^^ Network Monitoring ^^^
+^^^ Programming skills ^^^
+^^^ ERP systems ^^^
+NODE
+scrum-master
+^^^ Bachelors degree ^^^
+^^^ Certification ^^^
+^^^ Agile Methodology ^^^
+^^^ Scrum Frameworks ^^^
+^^^ Agile approaches ^^^
+^^^ Agile practices ^^^
+^^^ Knowledge and experience in software development process ^^^
+NODE
+java-full-stack-developer
+^^^ HTML/CSS ^^^
+^^^ Javascript ^^^
+^^^ Java ^^^
+^^^ Javascript libraries ^^^
+^^^ Javascript frameworks ^^^
+^^^ Server-side CSS ^^^
+^^^ Ajax and asynchronous requests ^^^
+NODE
