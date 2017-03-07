@@ -1,8 +1,7 @@
 hacking "Are you interested in hacking? (yes/no) " penetration-testor 0.8 security-auditor 0.6  
-securing "Do you like solving puzzles (eg SUDOKU)? (yes/no) " security-auditor 0.9 penetration-testor 0.4 
-security-certified "Have you done any IBM security certification? (yes/no) " security-auditor 0.7 
-bachelors-degree "Do you want to have a bachelors degree in Computer Science? (yes/no)" java-web-developer 0.8 java-full-stack-developer 0.8 scrum-master 0.7 network-system-administrator 0.9
-leadership "Have ever been in any leadership position (eg Prefect in High School)? (yes/no)" scrum-master 0.6
-programming "Do you feel that staring at a black screen and writing commands all day is your cup of tea? (yes/no)" java-web-developer 0.9 java-full-stack-developer 0.9 network-system-administrator 0.9
-design "Do you like art and design? (yes/no)" java-web-developer 0.6 java-full-stack-developer 0.4
+securing "Do you like solving puzzles (eg SUDOKU)? (yes/no) " security-auditor 0.9 penetration-testor 0.4  
+bachelors-degree "Do you want to have a bachelors degree in Computer Science? (yes/no) " java-web-developer 0.8 java-full-stack-developer 0.8 scrum-master 0.7 network-system-administrator 0.9
+leadership "Have ever been in any leadership position (eg Prefect in High School)? (yes/no) " scrum-master 0.6
+programming "Do you feel that staring at a black screen and writing commands all day is your cup of tea? (yes/no) " java-web-developer 0.9 java-full-stack-developer 0.9 network-system-administrator 0.9
+design "Do you like art and design? (yes/no) " java-web-developer 0.6 java-full-stack-developer 0.4
 
