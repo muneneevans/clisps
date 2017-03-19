@@ -11,3 +11,52 @@ penetration-testor
 ^^^ Forensics tools ^^^
 ^^^ Cryptography principles ^^^
 NODE
+security-auditor
+^^^ Windows, UNIX and Linux operating systems ^^^
+^^^ C, C++, C#, Java, ASM, PHP, PERL ^^^
+^^^ Network servers and networking tools (e.g. Nessus, nmap, Burp, etc.) ^^^
+^^^ Computer hardware and software systems ^^^
+^^^ Web-based applications ^^^
+^^^ Security frameworks (e.g. ISO 27001/27002, NIST, HIPPA, SOX, etc.) ^^^
+^^^ Security tools and products (Fortify, AppScan, etc.) ^^^
+^^^ Vulnerability analysis and reverse engineering ^^^
+^^^ Metasploit framework ^^^
+^^^ Forensics tools ^^^
+^^^ Cryptography principles ^^^
+NODE
+java-web-developer
+^^^ Bachelors degree ^^^
+^^^ Web servers ^^^
+^^^ MVC ^^^
+^^^ REST ^^^
+^^^ Git ^^^
+^^^ SQL ^^^
+^^^ Java ^^^
+^^^ Python ^^^
+NODE
+network-system-administrator
+^^^ Bachelors degree ^^^
+^^^ Networking certifications ^^^
+^^^ Database Management Systems ^^^
+^^^ Network Monitoring ^^^
+^^^ Programming skills ^^^
+^^^ ERP systems ^^^
+NODE
+scrum-master
+^^^ Bachelors degree ^^^
+^^^ Certification ^^^
+^^^ Agile Methodology ^^^
+^^^ Scrum Frameworks ^^^
+^^^ Agile approaches ^^^
+^^^ Agile practices ^^^
+^^^ Knowledge and experience in software development process ^^^
+NODE
+java-full-stack-developer
+^^^ HTML/CSS ^^^
+^^^ Javascript ^^^
+^^^ Java ^^^
+^^^ Javascript libraries ^^^
+^^^ Javascript frameworks ^^^
+^^^ Server-side CSS ^^^
+^^^ Ajax and asynchronous requests ^^^
+NODE
