@@ -11,6 +11,19 @@ penetration-testor
 ^^^ Forensics tools ^^^
 ^^^ Cryptography principles ^^^
 NODE
+security-auditor
+^^^ Windows, UNIX and Linux operating systems ^^^
+^^^ C, C++, C#, Java, ASM, PHP, PERL ^^^
+^^^ Network servers and networking tools (e.g. Nessus, nmap, Burp, etc.) ^^^
+^^^ Computer hardware and software systems ^^^
+^^^ Web-based applications ^^^
+^^^ Security frameworks (e.g. ISO 27001/27002, NIST, HIPPA, SOX, etc.) ^^^
+^^^ Security tools and products (Fortify, AppScan, etc.) ^^^
+^^^ Vulnerability analysis and reverse engineering ^^^
+^^^ Metasploit framework ^^^
+^^^ Forensics tools ^^^
+^^^ Cryptography principles ^^^
+NODE
 java-web-developer
 ^^^ Bachelors degree ^^^
 ^^^ Web servers ^^^
