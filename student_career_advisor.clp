@@ -30,27 +30,27 @@
 	)
 )
 
-(deffunction ask-question (?question $?allowed-values)
+(deffunction ask-question (?question $?allowed-values)    ;this function poses a question to the student and then compares their answer against expected values
    (printout t ?question)
-   (bind ?answer (read))
-   (if (lexemep ?answer) 
-       then (bind ?answer (lowcase ?answer)))
-   (while (not (member ?answer ?allowed-values)) do
-   	  (printout t "Invalid answer. Allowed : " ?allowed-values crlf)
-      (printout t ?question)
+   (bind ?answer (read))    ; receive the answer from the student and store it in the 'answer' variable
+   (if (lexemep ?answer)    ; checks if the variable 'answer' is a symbol or a string
+       then (bind ?answer (lowcase ?answer))) 
+   (while (not (member ?answer ?allowed-values)) do    ; the question is repeated to the student until they input a valid answer
+   	  (printout t "Invalid answer. Allowed : " ?allowed-values crlf)    ;print out to the student the allowed values
+      (printout t ?question)   
       (bind ?answer (read))
       (if (lexemep ?answer) 
           then (bind ?answer (lowcase ?answer))))
-   ?answer)
+   ?answer)  ;this function returns the student's answer
 
-(deffunction yes-or-no-p (?question)
-   (bind ?response (ask-question ?question yes no y n))
+(deffunction yes-or-no-p (?question)  ;this function provides a standard format for the answer received from the student by representing a yes/y answer as a basic yes and a no/n answer as a basic no. 
+   (bind ?response (ask-question ?question yes no y n))  ;the student's answer received from the function 'ask_question' is assigned to variable response 
    (if (or (eq ?response yes) (eq ?response y))
         then yes 
     else no))
 
 
-(deffunction interrogate-student(?student-name ?question ?trait)
+(deffunction interrogate-student(?student-name ?question ?trait)   ;this function checks if the student's response from function 'yes-or-no-p' is a yes, in which case the deftemplate 'qualification' is asserted
 	(if (eq (yes-or-no-p ?question) yes)
 		then
 		(assert
@@ -63,26 +63,26 @@
 )
 
 
-(deffunction read-careers(?file)
+(deffunction read-careers(?file)  ;this funtion welcomes the student to the advisory system and then opens and reads the careers file which contains questions posed to the student that will allow for the system to make an informed career suggestion
 	(printout t " ------------------------------------------------------------------------------ " crlf " - " crlf)
 	(printout t " -                          STUDENT CAREER ADVISOR                            - " crlf " - " crlf)
 	(printout t " ------------------------------------------------------------------------------ " crlf crlf)
 	(printout t " Please enter your first name to continue: ")
 	(bind ?student-name (read))
 	(printout t crlf " Hello " ?student-name ". Welcome! My name is Adama. I am a career advisor." crlf)
-	(open ?file file-data)
-	(bind ?stop FALSE)
-	(while(not ?stop)
-		(bind ?temp-line (readline file-data))
-		(if (eq ?temp-line EOF)
+	(open ?file file-data)  ;the file whose name is passed to this function's 'file' argument is opened here
+	(bind ?stop FALSE)  ;  initial value of variable 'stop' is set to FALSE 
+	(while(not ?stop)   ;  reading of the file will continue until the value of the variable stop is no longer FALSE ie when it is  TRUE
+		(bind ?temp-line (readline file-data))  ;each line read by function readline from file-data is assigned to the variable temp-line
+		(if (eq ?temp-line EOF)    ; check for End Of File
 			then (bind ?stop TRUE)
 			else(
-				if (eq ?temp-line "")
+				if (eq ?temp-line "")  ; check for strings in the file and print them out just as they are
 					then (printout t "")
-			else
-				(bind ?exploded (explode$ ?temp-line))
-				(bind ?trait (first$ ?exploded))
-				(bind ?temp (rest$ ?exploded))
+			else   ; if the contents of temp-line are neither EOF or a string then the following is done:  
+				(bind ?exploded (explode$ ?temp-line))  ; each element contained in temp-line is returned as a part of a multifield (exploded) value using the function explode$
+				(bind ?trait (first$ ?exploded)) ; the first value of the multifield 'exploded' is stored in variable 'trait' (contains the list of possible student traits)
+				(bind ?temp (rest$ ?exploded))  ; the rest of the values of the multifield 'exploded' are stored in variable 'temp'
 				(bind ?question (implode$ (subseq$ ?exploded 2 2)))
 				(bind ?related-careers (rest$ ?temp))
 				(create-facts ?trait ?related-careers)
@@ -93,7 +93,7 @@
 	(close)
 )
 
-(deffunction give-advise(?career-name ?student-name ?weight)
+(deffunction give-advise(?career-name ?student-name ?weight)  ;this function prints out to the student the suggested career for them and the requirements for that career
 	(printout t crlf crlf "Well well well, " (upcase ?student-name) " :-D" crlf)
 	(printout t "I think that the career path that fits you most is ... " crlf crlf "Drumrolls..." crlf crlf (upcase ?career-name) "!!!!!" crlf)
 	(printout t "These are the necessary requirements for the career" crlf crlf)
@@ -121,13 +121,13 @@
 ) 
 
 
-(defrule start-program
+(defrule start-program  ; this is the first rule that the advisory system will run as it has been assigned first priority (salience of 1)
    (declare (salience 1))
    =>
-   (read-careers careers.txt)
+   (read-careers careers.txt) ; passes the file name careers.txt to the read-careers function argument
 )
 
-(defrule coalesce-similar-weights
+(defrule coalesce-similar-weights  ;
 	(declare (salience -1))
 	?fitting-career <- (fitting-careers (career-name ?career-name)
 		(student-name ?student-name)
