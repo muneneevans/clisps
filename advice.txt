@@ -12,17 +12,7 @@ penetration-testor
 ^^^ Cryptography principles ^^^
 NODE
 security-auditor
-^^^ Windows, UNIX and Linux operating systems ^^^
-^^^ C, C++, C#, Java, ASM, PHP, PERL ^^^
-^^^ Network servers and networking tools (e.g. Nessus, nmap, Burp, etc.) ^^^
-^^^ Computer hardware and software systems ^^^
-^^^ Web-based applications ^^^
-^^^ Security frameworks (e.g. ISO 27001/27002, NIST, HIPPA, SOX, etc.) ^^^
-^^^ Security tools and products (Fortify, AppScan, etc.) ^^^
-^^^ Vulnerability analysis and reverse engineering ^^^
-^^^ Metasploit framework ^^^
-^^^ Forensics tools ^^^
-^^^ Cryptography principles ^^^
+# Add fields here
 NODE
 java-web-developer
 ^^^ Bachelors degree ^^^
@@ -59,4 +49,28 @@ java-full-stack-developer
 ^^^ Javascript frameworks ^^^
 ^^^ Server-side CSS ^^^
 ^^^ Ajax and asynchronous requests ^^^
+NODE
+project-manager
+# Add fields here
+NODE
+data-analyst
+# Add fields here
+NODE
+android-developer
+# Add fields here
+NODE
+beta-testor
+# Add fields here
+NODE
+ios-developer
+# Add fields here
+NODE
+system-analyst
+# Add fields here
+NODE
+interface-designer
+# Add fields here
+NODE
+quality-assurance
+# Add fields here
 NODE

@@ -1,7 +1,17 @@
 hacking "Are you interested in hacking? (yes/no) " penetration-testor 0.8 security-auditor 0.6  
 securing "Do you like solving puzzles (eg SUDOKU)? (yes/no) " security-auditor 0.9 penetration-testor 0.4
-bachelors-degree "Do you want to have a bachelors degree in Computer Science? (yes/no) " java-web-developer 0.8 java-full-stack-developer 0.8 scrum-master 0.7 network-system-administrator 0.9
+bachelors-degree "Do you want to have a bachelors degree in Computer Science? (yes/no) " java-web-developer 0.8 java-full-stack-developer 0.8 scrum-master 0.7 network-system-administrator 0.9 system-analyst 0.5 network-administrator 0.7 software-engineer 0.9
 leadership "Have ever been in any leadership position (eg Prefect in High School)? (yes/no) " scrum-master 0.6
-programming "Do you feel that staring at a black screen and writing commands all day is your cup of tea? (yes/no) " java-web-developer 0.9 java-full-stack-developer 0.9 network-system-administrator 0.9
+programming "Do you feel that staring at a black screen and writing commands all day is your cup of tea? (yes/no) " java-web-developer 0.9 java-full-stack-developer 0.9 network-system-administrator 0.9 software-engineer 0.7  ios-developer 0.6 android-developer 0.6
 design "Do you like art and design? (yes/no) " java-web-developer 0.6 java-full-stack-developer 0.4
+dubious "Do you consider yourself dubious? (yes/no) " penetration-testor 0.9 data-analyst 0.5 beta-tester 0.3 quality-assurance 0.4
+detail-oriented "Do you pay close attention to detail? (yes/no) " data-analyst 1.0 beta-tester 0.7 interface-designer 0.4 security-auditor 0.3  ios-developer 0.9 android-developer 0.9
+courious "When young, did you open your toys to see what's inside? (yes/no) " penetration-testor 0.9 data-analyst 0.8 quality-assurance 0.4  ios-developer 0.4
+communication-skill "Are you a good communicator? (yes/no) " scrum-master 0.9 project-manager 0.8 quality-assurance 0.8 system-analyst 0.7 data-analyst 0.2
+continuous-learning "Do you always want to know more? (yes/no) " network-administrator 0.7 system-analyst 0.5
+teamwork "Are you a team player? (yes/no) " scrum-master 0.9 project-manager 0.9 android-developer 0.7
+organized "Is your room always in order? (yes/no) " project-manager 0.8 network-administrator 0.7 interface-designer 0.6
+math-oriented "Do you love math numbers? (yes/no) " data-analyst 0.6 software-engineer 0.9 java-full-stack-developer 0.5
+self-motivated "Do you push yourself to do things? (yes/no) " interface-designer 0.9 network-administrator 0.7 
+mobile-driven "Do you like mobile devices? (yes/no) " ios-developer 0.9 android-developer 0.9
 
