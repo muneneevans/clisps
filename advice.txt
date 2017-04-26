@@ -12,7 +12,13 @@ penetration-testor
 ^^^ Cryptography principles ^^^
 NODE
 security-auditor
-# Add fields here
+^^^ Putty ^^^
+^^^ Appscan ^^^
+^^^ Python ^^^
+^^^ ZMap ^^^
+^^^ Stage Fright exploit ^^^
+^^^ Metasploit ^^^
+^^^ Javascript ^^^
 NODE
 java-web-developer
 ^^^ Bachelors degree ^^^
@@ -40,37 +46,85 @@ scrum-master
 ^^^ Agile approaches ^^^
 ^^^ Agile practices ^^^
 ^^^ Knowledge and experience in software development process ^^^
+^^^ Kanban ^^^
 NODE
 java-full-stack-developer
 ^^^ HTML/CSS ^^^
-^^^ Javascript ^^^
 ^^^ Java ^^^
+^^^ Javascript ^^^
 ^^^ Javascript libraries ^^^
 ^^^ Javascript frameworks ^^^
 ^^^ Server-side CSS ^^^
 ^^^ Ajax and asynchronous requests ^^^
+^^^ Spring Framework ^^^
+^^^ WildFly ^^^
 NODE
 project-manager
-# Add fields here
+^^^ Microsoft Project ^^^
+^^^ Open Proj ^^^
+^^^ Excel ^^^
+^^^ Git Tools ^^^
+^^^ Toggl ^^^
+^^^ Scrum ^^^
+^^^ Kanban ^^^
 NODE
 data-analyst
-# Add fields here
+^^^ Python ^^^
+^^^ R Framework ^^^
+^^^ Numpy ^^^
+^^^ Searborn ^^^
+^^^ SQL ^^^
+^^^ Hadoop ^^^
+^^^ Julia ^^^
+^^^ Javascript ^^^
 NODE
 android-developer
-# Add fields here
+^^^ Micking Bot ^^^
+^^^ Android Studio ^^^
+^^^ Java ^^^
+^^^ SQLite ^^^
+^^^ json ^^^
 NODE
 beta-testor
 # Add fields here
 NODE
 ios-developer
-# Add fields here
+^^^ Swift ^^^
+^^^ Objective C ^^^
+^^^ XCode ^^^
+^^^ SQlite ^^^
+^^^ Photoshop ^^^
+^^^ Json ^^^
 NODE
 system-analyst
-# Add fields here
+^^^ Use case ^^^
+^^^ UML ^^^
+^^^ Microsoft Project ^^^
+^^^ Skype ^^^
+^^^ Google forms ^^^
+^^^ Survery Monkey ^^^
 NODE
 interface-designer
-# Add fields here
+^^^ Photoshop ^^^
+^^^ Moqups ^^^
+^^^ Mock UI phone ^^^
+^^^ Micking Bot ^^^
+^^^ HTML ^^^
+^^^ CSS ^^^
+^^^ Javascript ^^^
 NODE
 quality-assurance
 # Add fields here
 NODE
+software-engineer
+^^^ Windows, UNIX and Linux operating systems ^^^
+^^^ C, C++, C#, Java, ASM, PHP, PERL ^^^
+^^^ Network servers and networking tools (e.g. Nessus, nmap, Burp, etc.) ^^^
+^^^ Computer hardware and software systems ^^^
+^^^ Web-based applications ^^^
+^^^ Security frameworks (e.g. ISO 27001/27002, NIST, HIPPA, SOX, etc.) ^^^
+^^^ Security tools and products (Fortify, AppScan, etc.) ^^^
+^^^ Vulnerability analysis and reverse engineering ^^^
+^^^ Metasploit framework ^^^
+^^^ Forensics tools ^^^
+^^^ Cryptography principles ^^^
